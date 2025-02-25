@@ -1,0 +1,25 @@
+package com.example.finance_walk_api.model;
+
+public class Category {
+    private Long id;
+    private String name;
+    private String icon;
+
+    public Category(Long id, String name, String icon) {
+        this.id = id;
+        this.name = name;
+        this.icon = icon;
+    }
+
+    public Long getId() {
+        return this.id;
+    }
+
+    public String getName() {
+        return this.name;
+    }
+
+    public String getIcon() {
+        return this.icon;
+    }
+}
