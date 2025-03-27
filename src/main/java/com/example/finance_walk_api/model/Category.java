@@ -11,6 +11,10 @@ public class Category {
         this.icon = icon;
     }
 
+    public void setId(Long id) {
+        this.id = id;
+    }
+
     public Long getId() {
         return this.id;
     }
@@ -21,5 +25,10 @@ public class Category {
 
     public String getIcon() {
         return this.icon;
+    }
+
+    @Override
+    public String toString() {
+        return "Category [id=" + id + ", name=" + name + ", icon=" + icon + "]";
     }
 }
